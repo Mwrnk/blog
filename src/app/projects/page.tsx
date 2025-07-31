@@ -13,22 +13,19 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "css2wind",
+    name: "Organizei",
     description:
       "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can't get 8/8.",
     url: "https://css2wind.com",
     imageUrl: "/projects/css2wind.png",
-    githubUrl: "https://github.com/LukeberryPi/css2wind",
+    githubUrl: "https://github.com/LukeberryPi/organizei-mobile",
     technologies: (
       <div className="flex items-center gap-x-3">
         <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
           TypeScript
         </span>
         <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-950 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
-          TailwindCSS
-        </span>
-        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
-          Next.js
+          React Native
         </span>
       </div>
     ),
